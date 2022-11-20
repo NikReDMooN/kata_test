@@ -11,11 +11,8 @@ public class Main {
         String s = in.nextLine();
         s = s.replace(" " , "");
 
-        //добавить проверку на входящие в строку символы(буквы, точки и т.п.)
 
         checksymbols(s);
-
-        //добавить проверку на вхождение арабских и/или римских чисел
     }
 
     public static void makerim(String s) throws CalculatorExeption{
