@@ -140,7 +140,6 @@ public class Main {
 
     public static void makerim(int ans){
         String s = new String();
-        System.out.println(ans);
         while (ans >= 100) {
             s += "C";
             ans -= 100;
